@@ -1,0 +1,24 @@
+.logo_movieapp {
+  width: 200px;
+  height: 120px;
+  transition: 0.4s;
+  float: left;
+}
+.color_navbar {
+  background-color: black;
+}
+a{
+  color: white;
+}
+.btn-color {
+  background-color: #00c4cc;
+  color: aliceblue;
+  width: 30%;
+  height: 40px;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+a {
+  color: white;
+}
