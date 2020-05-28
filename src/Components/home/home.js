@@ -12,14 +12,14 @@ class Home extends Component {
       <div className="listMovie">
         <div className="rating">
           {this.state.rate.map((el) => (
-            <button
+            <span
               variant="primary"
-              className="etoile1"
+              style={{ cursor: "pointer" }}
               onClick={() => this.props.getrate(el)}
             >
               {" "}
-              nejma{" "}
-            </button>
+              {<i style={{ color: "#f1ee0f" }} class="fas fa-star"></i>}
+            </span>
           ))}
         </div>
         <Movies

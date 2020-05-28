@@ -22,3 +22,7 @@ a{
 a {
   color: white;
 }
+.sr-only  {
+  text-decoration: none;
+
+}

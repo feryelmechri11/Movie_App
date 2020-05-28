@@ -66,16 +66,23 @@ class Navbar extends Component {
             </li>
           </ul>
           <form className="form-inline my-2 my-lg-0">
-            <input
-              className="form-control mr-sm-2"
+          <input
+              style={{ background: "transparent " }}
+              className="form-control mr-sm-2 "
               type="search"
               onChange={this.props.SearchBar}
-              placeholder="Search"
+              placeholder="Search...."
               aria-label="Search"
             />
           </form>
          
-             <Link to={"/signup"} >  <button type="button" className=" btn-color">Signup</button></Link> 
+             <Link to={"/signup"} >     <button
+              style={{ background: "#00c4cc " }}
+              type="button"
+              className="btn btn-secondary but"
+            >
+              Sign In
+            </button></Link> 
          
         </div>
       </nav>

@@ -1,0 +1,31 @@
+.detail{
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 10px 20px 58px #6d6c6c;
+  color: white;
+  background-color: black;
+  background-image: linear-gradient(to right, rgb(37, 35, 35) , black);
+  margin-bottom: 60px;
+}
+
+.imgDetail{
+    width: 380px;
+    height: 430px;
+    float: left;
+}
+.detailDescription{
+    margin-left: 50px;
+}
+.PDescription{
+font-family: "Sofia";
+font-size: 22px;
+}
+.rateDetail{
+  font-family: "Sofia";
+font-size: 22px;
+color: yellow;
+}

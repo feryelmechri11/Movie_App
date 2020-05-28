@@ -16,7 +16,7 @@ function SignIn() {
         <div id="signup">
           <h1>Sign Up for Free</h1>
 
-          <form  method="post">
+          <form method="post">
             <div className="top-row">
               <div className="field-wrap">
                 <label>
@@ -37,19 +37,35 @@ function SignIn() {
               <label>
                 Email Address<span className="req">*</span>
               </label>
-              <input type="email" required autocomplete="off" />
+              <input  className="inputSignIn" type="email" required autocomplete="off" />
             </div>
 
             <div className="field-wrap">
               <label>
                 Set A Password<span className="req">*</span>
               </label>
-              <input type="password" required autocomplete="off" />
+              <input className="inputSignIn" type="password" required autocomplete="off" />
             </div>
 
-            <button type="submit" className="button button-block">
+            <button  className="inputSignIn" type="submit" className="button button-block">
               Get Started
             </button>
+            <button type="submit">Login</button>
+            <label>
+              <input  className="inputSignIn" type="checkbox" checked="checked" name="remember"/>
+                {" "}
+                Remember me
+              </label>
+
+
+            <div className="container" style="background-color:#f1f1f1">
+              <button type="button" className="cancelbtn">
+                Cancel
+              </button>
+              <span className="psw">
+                Forgot <a href="#">password?</a>
+              </span>
+            </div>
           </form>
         </div>
 

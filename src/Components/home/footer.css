@@ -69,8 +69,9 @@
   background-color:#33353d
 }
 .copyright-text
-{
+{ font-size: 18px;
   margin:0
+ 
 }
 @media (max-width:991px)
 {
@@ -148,7 +149,7 @@
 {
   background-color:#007bb6
 }
-.social-icons a.dribbble:hover
+.i.dribbble:hover
 {
   background-color:#ea4c89
 }
@@ -163,4 +164,11 @@
 }
 .text-justify{
   font-size: 16px;
+}
+i {
+  color: blanchedalmond;
+}
+.follow{
+  font-size: 30px;
+  font-family: "Sofia";
 }
